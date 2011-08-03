@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+| The professional's way                                                      |
+-------------------------------------------------------------------------------
+
+It's the same as the OO way, but the DB class contains many-many more features:
+
+    Features
+        Separate functions for SELECT, INSERT, UPDATE, DELETE queries to handle 
+		the different DB answers 
+    Optimization
+        Caching queries and results 
+    Security
+        Binding - SQL injection prevention
+        Escaping data - to handle evil input 
+
+Also in main database handlers you can find an individual class for resultset 
+handling and much more classes for specific purposes.
+
+I have to note that mysql_* functions are the very old way, if you wish to 
+create your own class set for database handling then you should use MySQLi 
+class or functions! See: http://www.php.net/manual/en/class.mysqli.php
+
+You should check these too:
+- Official database handling module for PHP:
+  http://www.php.net/manual/en/book.pdo.php
+- ADOdb ("designed for speed", but has a lot of files): 
+  http://adodb.sourceforge.net/

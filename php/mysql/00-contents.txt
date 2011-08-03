@@ -1,0 +1,5 @@
+Contents
+10 - MySQL handling basics (not for production use, just for learning)
+20 - MySQL handling wrapped in functions (usable for microsites)
+30 - Object Oriented MySQL handling (for basic mainstream purposes)
+40 - The professionals' way (things to think of when it comes serious)
